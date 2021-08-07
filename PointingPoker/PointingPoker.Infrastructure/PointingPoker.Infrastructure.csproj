@@ -1,11 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <Configurations>Debug;Release</Configurations>
     </PropertyGroup>
-
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <OutputPath>..\PointingPoker.WebApi\bin\</OutputPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+        <OutputPath>..\PointingPoker.WebApi\bin\</OutputPath>
+    </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\PointingPoker.Core\PointingPoker.Core.csproj" />
     </ItemGroup>
-
 </Project>

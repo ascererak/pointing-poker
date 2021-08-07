@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointingPoker.Core", "Point
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointingPoker.Infrastructure", "PointingPoker.Infrastructure\PointingPoker.Infrastructure.csproj", "{C906325A-96A8-427F-A736-B98767A4B05B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointingPoker.WebClient", "PointingPoker.WebClient\PointingPoker.WebClient.csproj", "{6020C539-D263-4BD2-A395-F828F2A95C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointingPoker.Test", "PointingPoker.Test\PointingPoker.Test.csproj", "{FF9554FF-893E-42D0-BE25-22149ACD1A1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{C906325A-96A8-427F-A736-B98767A4B05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C906325A-96A8-427F-A736-B98767A4B05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C906325A-96A8-427F-A736-B98767A4B05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6020C539-D263-4BD2-A395-F828F2A95C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6020C539-D263-4BD2-A395-F828F2A95C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6020C539-D263-4BD2-A395-F828F2A95C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6020C539-D263-4BD2-A395-F828F2A95C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9554FF-893E-42D0-BE25-22149ACD1A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9554FF-893E-42D0-BE25-22149ACD1A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9554FF-893E-42D0-BE25-22149ACD1A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9554FF-893E-42D0-BE25-22149ACD1A1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
